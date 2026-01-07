@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Titulo';
+    src: url('fontes/ArnelRounded-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Texto';
+    src: url(fontes/ComicNeueSansID.ttf) format('truetype'); 
+}
+
+header {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 20px 0;
+    height: 17vw;
+}
+
+#titulo {
+    font-family: 'Titulo', sans-serif;
+    font-size: 10vw;
+    font-weight: normal;
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main  p {
+    font-family: 'Texto', sans-serif;
+    font-size: 3.5vw;
+}
+
+.branco {
+    background-color: rgba(0, 0, 0, 0.11);
+}
